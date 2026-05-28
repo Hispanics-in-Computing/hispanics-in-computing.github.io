@@ -8,7 +8,7 @@ location: Chicano Park, San Diego, CA
 event: bof
 year: 2019.1
 bovnavigation: true
-banner: Tapia2019/banner.jpg
+banner: 2019Tapia/banner.jpg
 
 ---
 
@@ -19,7 +19,7 @@ Chicano Park is a National Historic Landmark and has the largest collection of o
       <p>The organizers for the BOF in San Diego.</p>
     </div>
     <div class="col-md-8">
-    {% assign orgF = site.static_files | where_exp:"image", "image.path contains 'images/Tapia2019/organizers'"  %}
+    {% assign orgF = site.static_files | where_exp:"image", "image.path contains 'images/2019Tapia/organizers'"  %}
     {% include carousel.html groupName="carouselOrganizers" groupFiles=orgF %}
     </div>
 </div>  <!-- row -->
@@ -30,7 +30,7 @@ Chicano Park is a National Historic Landmark and has the largest collection of o
       <p>Group photo at Chicano Park.</p>
     </div>
     <div class="col-md-8">
-    {% assign orgF = site.static_files | where_exp:"image", "image.path contains 'images/Tapia2019/group'"  %}
+    {% assign orgF = site.static_files | where_exp:"image", "image.path contains 'images/2019Tapia/group'"  %}
     {% include carousel.html groupName="carouselGroup" groupFiles=orgF %}
     </div>
 </div>  <!-- row -->
@@ -40,7 +40,7 @@ Chicano Park is a National Historic Landmark and has the largest collection of o
       <p>Delicious food, street tacos.</p>
     </div>
     <div class="col-md-8">
-    {% assign orgF = site.static_files | where_exp:"image", "image.path contains 'images/Tapia2019/food'"  %}
+    {% assign orgF = site.static_files | where_exp:"image", "image.path contains 'images/2019Tapia/food'"  %}
     {% include carousel.html groupName="carouselFood" groupFiles=orgF %}
     </div>
 </div>  <!-- row -->
@@ -51,7 +51,7 @@ Chicano Park is a National Historic Landmark and has the largest collection of o
       event.</p>
     </div>
     <div class="col-md-8">
-    {% assign orgF = site.static_files | where_exp:"image", "image.path contains 'images/Tapia2019/chicanopark'"  %}
+    {% assign orgF = site.static_files | where_exp:"image", "image.path contains 'images/2019Tapia/chicanopark'"  %}
     {% include carousel.html groupName="carouselPark" groupFiles=orgF %}
     </div>
 </div>  <!-- row -->
@@ -61,7 +61,7 @@ Chicano Park is a National Historic Landmark and has the largest collection of o
       <p>Murals in Chicano Park.</p>
     </div>
     <div class="col-md-8">
-    {% assign orgF = site.static_files | where_exp:"image", "image.path contains 'images/Tapia2019/mural'"  %}
+    {% assign orgF = site.static_files | where_exp:"image", "image.path contains 'images/2019Tapia/mural'"  %}
     {% include carousel.html groupName="carouselMural" groupFiles=orgF %}
     </div>
 </div>  <!-- row -->

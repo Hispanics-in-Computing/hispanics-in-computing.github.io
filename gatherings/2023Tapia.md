@@ -2,7 +2,7 @@
 layout: default
 title: Tapia 2023, Dallas, TX
 subtitle: BOF at Tapia
-banner: Tapia2023/banner.jpg
+banner: 2023Tapia/banner.jpg
 confdate: Sept 13-15, 2023
 bofdate: Sept 15, 2023
 location: Dallas, TX
@@ -30,7 +30,7 @@ The Hispanics in Computing community was founded a few months before the Tapia 2
     </div>
     <div class="col-md-8">
 
-    {% assign orgfiles = site.static_files | where_exp:"image", "image.path contains 'images/Tapia2023/image_'"  %}
+    {% assign orgfiles = site.static_files | where_exp:"image", "image.path contains 'images/2023Tapia/image_'"  %}
     {% include carousel.html groupName="hCommunity" groupFiles=orgfiles %}
 
     </div>

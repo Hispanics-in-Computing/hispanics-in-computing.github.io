@@ -11,4 +11,4 @@ baseurl: ""
 # url: "https://hispanicsincomputing.org" 
 url: "https://mapq.github.io/hispanicsincomputing/" 
 
-exclude: ["documentation", "bin"]
+exclude: ["documentation", "bin", "_notused"]
