@@ -2,7 +2,7 @@
 layout: default
 title: Tapia 2024, San Diego, CA
 subtitle: BOF at Tapia 2024
-banner: banner.jpg
+banner: 2024Tapia/banner.jpg
 confdate: Sept 19-21, 2024
 bofdate: Sep 19, 2024
 time: Thu 19 Sep 2024 1:45PM - 2:45PM
@@ -29,4 +29,14 @@ The Hispanics in Computing group was founded a few months before the Tapia 2009 
 * Brianna Posadas, Cal Poly Pomona
 * Manuel A. Pérez-Quiñones, University of North Carolina, Charlotte
 
+
+<div class="row">
+    <div class="col-md-4">
+      <p>Second time in San Diego!</p>
+    </div>
+    <div class="col-md-8">
+    {% assign orgfiles = site.static_files | where_exp:"image", "image.path contains 'images/2024Tapia/bof'"  %}
+    {% include carousel.html groupName="hCommunity" groupFiles=orgfiles %}
+    </div>
+</div>  <!-- row -->
 

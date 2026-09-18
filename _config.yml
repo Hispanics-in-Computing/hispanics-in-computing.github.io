@@ -1,14 +1,17 @@
-#destination: "~/Development/Hispanics/_site"
 title: Hispanics in Computing
 email: maperezquinones@gmail.com
 description: Hispanics in Computing
 
 # For deployment
-#baseurl: "/hispanicsincomputing"
 baseurl: ""
 
 # The base hostname & protocol for your site
 # url: "https://hispanicsincomputing.org" 
-url: "https://mapq.github.io/hispanicsincomputing/" 
+url: "https://hispanics-in-computing.github.io" 
 
 exclude: ["documentation", "bin", "_notused"]
+
+# cd to images, then set all files to 644
+#
+# find . -type f -exec chmod 644 {} +
+#

@@ -2,7 +2,7 @@
 layout: default
 title: SIGCSE 2023, Toronto, CA
 subtitle: 1st BOF at SIGCSE
-banner: banner.jpg
+banner: 2023Tapia/banner.jpg
 confdate: March 15-18, 2023
 bofdate: March 16, 2023
 location: Toronto, Ontario, CA
