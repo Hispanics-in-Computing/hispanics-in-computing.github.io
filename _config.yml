@@ -15,3 +15,7 @@ exclude: ["documentation", "bin", "_notused"]
 #
 # find . -type f -exec chmod 644 {} +
 #
+# set all directories to 755
+#
+# find . -type d -exec chmod 755 {} +
+
